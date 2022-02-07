@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+      div.trans {
+  width: 100%;
+  height: 100px;
+  background-color: aqua;
+  transition: width 2s, height 4s, transform 2s;
+}
+
+div.trans:hover {
+  width: 300px;
+  height: 300px;
+  transform: rotate(90deg);
+}
+fieldset{
+    text-align: center;
+    font-size: 20px;
+}
+.carousel-inner{
+    
+    height: 400px;
+}
+.container-fluid {
+ height:"500px";
+ width:"800px";
+}
+
+
+  </style>
+</head>
+<body>
+    <nav class="collapse navbar-collapse navbar-inverse">  
+        <div class="container-fluid">  
+          <div class="navbar-header">  
+            <a class="navbar-brand" href="#">Infosys</a>  
+          </div>  
+          <ul class="nav navbar-nav">  
+            <li class="active"><a href="#">Home</a></li>  
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Services <span class="caret"></span></a>  
+              <ul class="dropdown-menu">  
+                <li><a href="#">Cloud</a></li>  
+                <li><a href="#">Artifical Intillegence</a></li>  
+                <li><a href="#">Machine Learning</a></li>  
+              </ul>  
+            </li>  
+            <li><a href="#">Contact</a></li>  
+         
+          </ul> 
+          <ul class="nav navbar-nav navbar-right">  
+            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>  
+            <li><a href="Login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>  
+          </ul>   
+        </div>  
+      </nav>  
+      <div class="container-fluid">  
+        <h1>Welcome</h1>  
+        <!--data-ride="carousel"-a slideshow for cycling through a series of content-->
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">  
+          <!-- Indicators -->  
+          <ol class="carousel-indicators">  
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>  
+            <li data-target="#myCarousel" data-slide-to="1"></li>  
+            <li data-target="#myCarousel" data-slide-to="2"></li>  
+          </ol>  
+        
+          <div class="carousel-inner" role="listbox">  
+            <div class="item active" style="background-color: aliceblue;">  
+              <img src="Images/Infos.jpg" alt="HTML" >
+              <h3 style="text-align: center;">Infosys</h3>  <!--caption for slides-->
+            <p style="text-align: center;">Welcome To Infosys</p>    
+            </div>  
+        
+            <div class="item" style="background-color: aliceblue;">  
+              <img src="Images/WFM.jpg"> 
+              <h3 style="text-align: center;">Campus</h3>  <!--caption for slides-->
+            <p style="text-align: center;">Infosys Limited is an Indian multinational information technology company that provides business consulting, information technology and outsourcing services. The company was founded in Pune and is headquartered in Bangalore.</p>   
+            </div>  
+            
+            <div class="item" style="background-color: aliceblue;">  
+              <img src="Images/WFH.jpg" alt="JS">
+              <h3 style="text-align: center;">Work From Home</h3>  <!--caption for slides-->
+            <p style="text-align: center;">Work From Home Policy</p>    
+            </div>  
+          </div>  
+        
+          <!-- Left and right controls -->  
+          <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">  
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>  
+            <span class="sr-only">Previous</span> <!--screen readers--> 
+          </a>  
+          <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"> 
+            
+    A
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>  
+            <span class="sr-only">Next</span>  
+          </a> 
+      
+      </div> 
+      </div><!-- corousel end --> 
+      <hr>
+      <!--Vedio Element-->
+      <div class="container">  
+       
+        <div class="embed-responsive embed-responsive-16by9">  
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/oNPHI8iXfVo"></iframe>  
+        </div>  
+      </div>   
+      <!--Transition and Transformation-->
+      <div class="container">
+      <div class="trans">
+          <h2>Infosys provides software development, maintenance and independent validation services to companies in finance, insurance, manufacturing and other domains</h2>
+      </div>
+      </div>
+      <!--Table-->
+      <div class="container" class="table-responsive">
+        <h2>Table</h2>
+      
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Firstname</th>
+              <th>Lastname</th>
+              <th>Email</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Nevetha</td>
+              <td>J</td>
+              <td>nj@somemail.com</td>
+            </tr>      
+            <tr class="success">
+              <td>Aakass</td>
+              <td>Elango</td>
+              <td>ae@example.com</td>
+            </tr>
+            <tr class="danger">
+              <td>Danger</td>
+              <td>K</td>
+              <td>dk@example.com</td>
+            </tr>
+            </tbody>
+        </table>
+      </div>
+        <fieldset style="background-color: gray;">
+            
+                    <address>
+                        Mail To <a style="color: black;" href="mailto:Madhankumaryk.com">Madhan Kumar Y K</a>.<br>
+                        Visit us at:<br>
+                        Infosys.com<br>
+                        Bangalore<br>
+                        India
+                        </address>
+              
+           
+        </fieldset>
+           
+</body>
+</html>

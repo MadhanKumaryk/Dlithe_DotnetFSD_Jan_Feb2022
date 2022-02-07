@@ -1,0 +1,12 @@
+.navbar {
+  min-height: 80px;
+  color: black;
+  background-color: aqua;
+}
+.nav
+{
+  padding: 0 15px;
+  height: 80px;
+  line-height: 80px;
+}
+
