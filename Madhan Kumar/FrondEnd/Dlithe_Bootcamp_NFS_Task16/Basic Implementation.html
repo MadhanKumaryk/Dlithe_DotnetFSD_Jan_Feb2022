@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: bisque;
+        }
+        div.fis{
+            font-size: 25px;
+            background-color: rgb(145, 11, 111);
+        }
+        div.sec{
+            font-size: 25px;
+            background-color: rgb(228, 143, 195);
+        }
+        div.three{
+            font-size: 25px;
+            background-color: rgb(233, 121, 233);
+        }
+        div.four{
+            font-size: 25px;
+            background-color: rgb(107, 49, 88);
+        }
+    </style>
+    <script>
+
+    function changeBackground()
+
+    {
+    //var x = document.getElementById('bg');
+   // bg.style.backgroundColor = 'rgb('+a+', '+b+', '+c+')';
+    bg.style.backgroundColor='rgb(255,0,78)';
+    }
+    function hov() {
+           var e = document.getElementById('hover');
+          //e.style.display = 'none';
+           e.style.height='100px';
+           hover.style.backgroundColor='red'; 
+    }
+    </script>
+</head>
+
+<body>
+      <!--Background image-->
+      <div>
+        <button onclick="myFunction()">Set background</button>
+        <script>
+         function myFunction() {
+           document.body.style.background =url();
+         }
+           </script>
+      </div>
+    <!--Datatypes-->
+    <div class="fis">
+        <h2 style="text-align: center;">Data Types</h2>
+        <p>1.Number =
+        <script>
+            var a=30;
+            document.write(a+"<br>");
+        </script>
+        </p>
+        <p>
+            2.String =
+            <script>
+                var b="Welcome";
+                document.write(a+"<br>");
+            </script>
+        </p>
+        <p>3.Boolean =
+            <script>
+                var c="true";
+                document.write(c+"<br>");
+            </script>
+
+        </p>
+        <p>
+            4.Decimal=
+            <script>
+                var d=30.5;
+                document.write(d+"<br>");
+            </script>
+        </p>
+        <p>
+            4.Null =
+            <script>
+                var e=null;
+                document.write(e+"<br>");
+            </script>
+        </p>
+        <p>
+            5.undefined=
+            <script>
+                var f;
+                document.write(f+"<br>");
+            </script>
+        </p>
+        <p>
+           6. Array=
+            <script>
+                var g=["one,two"];
+                document.write(g[0]+"<br>");
+                document.write(g[1]+"<br>")
+            </script>
+        </p>
+        
+       
+    </div>
+    <!--variabels-->
+    <div class="sec">
+        <h2 style="text-align: center;">Variables</h2>
+        <p id="demo"></p>
+        
+        <p id="demo1"></p>
+
+         <p id="demo2"></p>
+
+         <p id="demo3"></p>
+
+         <p id="demo4"></p>
+        <script>
+            let x,y,z;
+            
+            x=4;
+            y=7;
+            z=x+y;
+           
+
+            document.getElementById("demo").innerHTML = "The value of z is " + z + ".";
+            const PI=3.14159265359;
+            var carName = "Volvo";
+             
+       {  
+  
+         let a = 2;
+         let b=5;  //local scope
+        document.write("Local Scope"+b+"<br>");
+  // Here a is 2  
+}
+{
+   let b=3;
+}
+document.getElementById("demo1").innerHTML = 10.50; //literal
+
+document.getElementById("demo2").innerHTML = (5 + 6) * 10; //operators
+
+
+document.getElementById("demo3").innerHTML = carName;
+
+document.getElementById("demo4").innerHTML = "Global Scope"+a;
+
+document.write(PI);
+document.write(b);
+      </script>
+    </div>
+    <!--Function-->
+    <div class="three">
+        <h2 style="text-align: center;">Functions</h2>
+        <button type="button" onclick="FunctionNoparameter()">No parameter Function</button>
+        <button type="button" onclick="Functiononeparameter(4)">One parameter Function</button>
+        <button type="button" onclick="Functionthreeparameter(2,4,3)">Three parameter function</button>
+         <p id="demo1"></p>
+         <p id="demo2"></p>
+         <script>
+          function FunctionNoparameter() 
+            {
+                document.getElementById("demo1").innerHTML = "Hello Trainees!";
+                document.getElementById("demo2").innerHTML = "How are you?";
+                
+            }
+           function Functiononeparameter(number)
+            {  
+              alert(number*number*number);  
+            }  
+             
+             function Functionthreeparameter(number,number1,number2)
+            {  
+           alert(number*number1*number2);  
+            }
+
+         </script>
+    </div>
+    <!--Events-->
+    <div class="four">
+        <!--date-->
+        <h2 style="text-align: center;">Events</h2>
+        <h3>Date</h3>
+        <button onclick="this.innerHTML = Date()">The time is?</button>
+        <br>
+        <!--Keyup-->
+        <hr>
+        <h3>OnKeyup</h3>
+        <input id="bg" onkeyup="changeBackground()"
+        placeholder="write something" style="color:white">
+        <hr>
+        <h3>onkeypress</h3>
+        <input type="text" onkeypress="alert('You have pressed a key inside text input!')" placeholder="text input">
+        <!--Onclick-->
+        <h3>onclick</h3>
+        <button onclick="hi()" >Hello</button> 
+        <!--Onfocus-->
+        <hr>
+        <h3>onfocus</h3>
+        <input id="focus" type="text" onfocus="highlightInput()">
+        <!--Onchange-->
+        <hr>
+        <h3>Onchange</h2>
+        <select onchange="alert('You have changed the selection!');">
+            <option>Select</option>
+            <option>Male</option>
+            <option>Female</option>
+        </select>
+        <hr>
+        <!--Mouseover-->
+        <h3>Mouseover</h3>
+        
+        <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\Images\Coding.jpg"alt="Smiley" width="300" height="300">
+        
+        <script>
+            function changeBackground()
+
+          {
+           //var x = document.getElementById('bg');
+
+           bg.style.backgroundColor='rgb(255,0,78)';
+           }
+           function hi() 
+            {
+        alert('Hi ');
+      } 
+           function highlightInput()
+          {
+              var e = document.getElementById('focus');
+               e.style.backgroundColor = 'yellow';
+           } 
+           function bigImg(x) {
+  x.style.height = "300px";
+  x.style.width = "300px";
+}
+
+function normalImg(x) {
+  x.style.height = "150px";
+  x.style.width = "150px";
+}
+
+        </script>
+        
+
+    
+ 
+
+
+
+
+        
+
+
+
+      </div>
+   </body>
+</html>
