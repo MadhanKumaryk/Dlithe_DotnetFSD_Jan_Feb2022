@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>    
+        function Employee(fname,lname,designation,mobile)
+       {
+            this.fname = 'Madhan';
+            this.lname = 'Kumar';
+            this.designation='Software Engineer';
+            this.mobile='8906545678'
+        }
+        var Empobj1 = new Employee();
+	    Empobj1.location = 'Bangalore';
+	     document.write(Empobj1.fname+"<br>"); 
+         document.write(Empobj1.lname+"<br>");
+         document.write(Empobj1.designation+"<br>"); 
+         document.write(Empobj1.mobile+"<br>"); 
+         document.write(Empobj1.location+"<br>"); 
+
+        Employee.prototype.location= 'Mumbai';
+	     var Empobj2 = new Employee();
+	     document.write(Empobj2.location); 
+          
+        Employee.prototype.message =function(){
+            return this.fname + " " + this.lname + " " +this.designation +" " +this.mobile + " "};
+            
+            const n = new Employee("Madhan", "Kumar", "Software", 878989978978);
+           document.getElementById("demo").innerHTML ="Employee detailes: " + n.message() + " " + n.location;
+
+	</script>	
+    
+</body>
+</html>

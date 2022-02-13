@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body >
+    <div style="background-color: rgb(8, 82, 82);">
+    <h2 style="text-align: center;">Javascript ArrayMethods</h2>
+    <h3>Splice</h3>
+    <script >
+        //Splice//
+        const months=['jan','mar','apr','jun','jul'];
+        months.splice(1,0,'feb');
+        document.write(months);
+        document.writeln("<br/>");
+        months.splice(4, 1, 'may');
+        document.write(months);
+        document.writeln("<br/>"); 
+
+    </script>
+    <hr>
+    <h3>Concat</h3>
+    <script>
+        //concat//
+        const letters = ['a', 'b', 'c'];
+        const alphaNumeric = letters.concat(1, 2, 3);
+        document.write(alphaNumeric);
+    </script>
+    <hr>
+    <h3>Entries</h3>
+    <script>
+        
+        //entries//
+        var a = ['a', 'b', 'c','d','e'];
+        var iterator = a.entries();
+        for (let e of iterator)
+       {
+            document.write(e+"<br>");
+        }
+    </script>
+    <hr>
+    <h3>Reverse</h3>
+    <script>
+        //reverse//
+        var a = [5, 6, 7,8,9];
+         document.write(a);
+         a.reverse();
+          document.writeln("<br/>"); 
+          document.write(a); 
+    </script>
+    <hr>
+    <h3>Indexof</h3>
+    <script>
+        //indexof//
+        var fruits = ["Banana", "Orange", "Apple", "Mango","Apple"];
+        var a =fruits.indexOf("Apple")  // Returns 2
+        document.write(a);
+       document.writeln("<br/>"); 
+         a=fruits.lastIndexOf("Apple"); 
+        document.write(a);
+    </script>
+    <hr>
+    <h3>ToString</h3>
+    <p id="demo"></p>
+    <script>
+        //tostring//
+        var fruits=["apple","orange","banana","grapes"]
+        document.getElementById("demo").innerHTML=fruits.toString();
+    </script>
+    <hr>
+    <h3>Join</h3>
+    <script>
+        //join//
+        var a=fruits.join() ;  // Returns "Banana,Orange,Apple,Mango"
+        document.write(a);
+        console.log(a);
+         console.log(fruits);
+    </script>
+    <hr>
+    <h3>Slice</h3>
+    <script>
+        //slice//
+        var fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+                
+          var a = fruits.slice(-4, -1);
+         document.write(a);
+         document.writeln("<br/>"); 
+        var b = fruits.slice(1, 4);
+         document.write(b);
+    </script>
+    <hr>
+    <h3>Sort</h3>
+    <script>
+        //sort//
+        var arr = [2, 5, 8, 1, 4,9,6]
+        document.write(arr.sort());
+         document.write(arr);
+    </script>
+    <hr>
+    <h3>Filter</h3>
+    <script>
+        //filter//
+        var words = ['Vishal', 'Naven', 'Aakash', 'Lalith', 'Riju', 'Aakass Elango'];
+        var result = words.filter(word => word.length == 5);
+        document.write(result);
+    </script>
+    <hr>
+    </div>
+    <div style="background-color: rgb(45, 105, 105);">
+        <h2 style="text-align: center;">StringMethods</h2>
+        <h3>CharAt</h3>
+        <script>
+            //CharAt//
+            var str="javascript";  
+           document.write(str.charAt(9));
+        </script>
+        <hr>
+        <h3>Concat</h3>
+        <script>
+            //concat//
+            var s1="javascript ";  
+            var s2="String Example";  
+            var s3=s1.concat(s2);  
+            document.write(s3); 
+        </script>
+        <hr>
+        <h3>Indexof</h3>
+        <script>
+            //indexof//
+        var s1="javascript indexof example";  
+        var n=s1.indexOf("indexof");  
+        document.write(n);
+        document.writeln("<br/>"); 
+        //lasrindexof
+        var s1="indexof javascript indexof";  
+        var n=s1.lastIndexOf("indexof");  
+        document.write(n); 
+        </script>
+        <hr>
+        <h3>Tolowercase</h3>
+        <script>
+            //tolowercase//
+             var s1="toLowerCase Example";  
+                var s2=s1.toLowerCase();  
+                document.write(s2); 
+        </script>
+        <hr>
+        <h3>Slice</h3>
+        <script>
+            //slice//
+            var s1="abcdefghi";  
+            var s2=s1.slice(3,6);  
+            document.write(s2);  
+        </script>
+        <hr>
+        <h3>Trim</h3>
+        <script>
+              var s1="javascript trim  ";  
+             var s2=s1.trim();  
+             document.write(s2);
+        </script>
+        <hr>
+        <h3>Split</h3>
+        <script>
+             var str="Naveen Lalith Vishal Riju Aakass Aakash";  
+             document.write(str.split(" Vishal")); 
+        </script>
+    </div>
+    <div style="background-color: rgb(99, 212, 212);">
+        <!--Date Functions-->
+       <h3>Date Functions</h3>
+       Current Date and Time: <span id="txt"></span>  
+      <script>  
+       var today=new Date();  
+        document.getElementById('txt').innerHTML=today;
+  
+      </script>  
+      <hr>
+      <h3>Date</h3>
+      <script>  
+        var date=new Date();  
+        var day=date.getDate();  
+        var month=date.getMonth()+1;  
+        var year=date.getFullYear();  
+        document.write("<br>Date is: "+day+"/"+month+"/"+year);  
+        </script>  
+        <hr>
+        
+       Current Time: <span id="txt1"></span>  
+      <script>  
+       var today=new Date();  
+       var h=today.getHours();  
+      var m=today.getMinutes();  
+      var s=today.getSeconds();  
+       document.getElementById('txt1').innerHTML=h+":"+m+":"+s;  
+     </script>  
+      <hr>
+      Current Time: <span id="txt2"></span>  
+    <script>  
+      window.onload=function()
+      {
+         getTime();
+      }  
+      function getTime()
+    {  
+     var today=new Date();  
+     var h=today.getHours();  
+     var m=today.getMinutes();  
+     var s=today.getSeconds();  
+// add a zero in front of numbers<10  
+     m=checkTime(m);  
+     s=checkTime(s);  
+     document.getElementById('txt2').innerHTML=h+":"+m+":"+s;  
+    setTimeout(function()
+   {
+       getTime()
+    },1000);//1 second  
+  }  
+//setInterval("getTime()",1000);//another way  
+    function checkTime(i){  
+    if (i<10){  
+    i="0" + i;  
+    }  
+  return i;  
+    }  
+    </script>  
+    <hr>
+    <h2>Difference</h2>
+    <script>  
+        var d1 = new Date("07/14/2020");   
+        var d2 = new Date("09/14/2020");   
+        
+        var diff = d2.getTime() - d1.getTime();   
+        
+        var daydiff = diff / (1000 * 60 * 60 * 24);   
+        document.write(" Total number of days between <b> " + d1 + " </b> and <b> " + d2 + " </b> is: <b> " + daydiff + " days </b>" );   
+        </script> 
+        <hr>
+        <script>
+
+            var d1 = new Date("12/16/2000"); 
+            var d2 = new Date(); 
+            var diff = d2.getTime() - d1.getTime(); 
+            
+            var daydiff = (diff / 31536000000).toFixed(0);   
+            document.write(" Total numbers of years since <b> 16th December 2000 </b> is: <b> " + daydiff + " years </b>" ); 
+            </script> 
+            <hr>
+    </div>
+    <div style="background-color: rgb(136, 173, 173);">
+        <h2>Math</h2>
+        <p id="demo1"></p>
+        <script>
+            document.getElementById("demo1").innerHTML = "<p><b>Math.E:</b> " + Math.E + "</p>"+
+            "<p><b>Math.PI:</b> " + Math.PI + "</p>" +
+            "<p><b>Math.SQRT2:</b> " + Math.SQRT2 + "</p>" +
+            "<p><b>Math.SQRT1_2:</b> " + Math.SQRT1_2 + "</p>" +
+            "<p><b>Math.LN2:</b> " + Math.LN2 + "</p>" +
+            "<p><b>Math.LN10:</b> " + Math.LN10 + "</p>" +
+            "<p><b>Math.LOG2E:</b> " + Math.LOG2E + "</p>" +
+            "<p><b>Math.Log10E:</b> " + Math.LOG10E + "</p>";;
+
+        </script>
+        <hr>
+        <h3>Round</h3>
+        <p>Math.round(x) returns the nearest integer:(Math.round(4.7)=</p>
+        <script>
+            document.write(Math.round(4.7)+"<br>");
+            </script>
+            <h3>Ceil</h3>
+            <p>Math.ceil(x) returns the value of x rounded up to its nearest integer:
+                Math.ceil(3.2)=
+            </p>
+
+            <script>
+               
+                document.write(Math.ceil(3.2)+"<br>");
+            </script>
+            <h3>Floor</h3>
+            <p>Math.floor(x) returns the value of x rounded down to its nearest integer:
+                Math.floor(3.7)=
+            </p>
+            <script>
+                document.write(Math.floor(3.7)+"<br>");
+            </script>
+            <h3>Trunc</h3>
+            <p>Math.trunc(x) returns the integer part of x:Math.trunc(9.2)=</p>
+            <script>
+                document.write(Math.trunc(9.2)+"<br>");
+            </script>
+            <h3>Sign</h3>
+            <p>Math.sign(x) returns if x is negative, null or positive:Math.sign(0)=</p>
+            <script>
+                document.write(Math.sign(0)+"<br>");
+            </script>
+            <h3>pow</h3>
+            <p>Math.pow(x, y) returns the value of x to the power of y:Math.pow(8,2)=</p>
+            <script>
+                document.write(Math.pow(8,2)+"<br>");
+            </script>
+            <h3>Sqrt</h3>
+            <p>Math.sqrt(x) returns the square root of x:Math.sqrt(144)</p>
+            <script>
+                document.write(Math.sqrt(144)+"<br>");
+            </script>
+            <h3>ABS</h3>
+            <p>Math.abs(x) returns the absolute (positive) value of x:Math.abs(-6)=</p>
+            <script>
+                document.write(Math.abs(-6)+"<br>");
+            </script>
+             <h3>Sin</h3>
+             <p>Math.sin(x) returns the sine (a value between -1 and 1) of the angle x (given in radians).</p>
+             <script>
+                 document.write(Math.sin(1)+"<br>");
+
+             </script>
+             <h3>
+                 cos
+             </h3>
+             <script>
+                 document.write(Math.cos(1)+"<br>");
+             </script>
+             <h3>Tan</h3>
+             <script>
+                 document.write(Math.tan(1)+"<br>");
+             </script>
+             <h3>Min</h3>
+             <script>
+                 document.write(Math.min(0, 150, 30, 20, -8, -200)+"<br>");
+             </script>
+             <h3>Max</h3>
+             <script>
+                 document.write(Math.max(0, 150, 30, 20, -8, -200)+"<br>");
+             </script>
+             <h3>
+                 Ramdom
+             </h3>
+             <script>
+                 document.write(Math.random()+"<br>"); 
+             </script>
+             <h3>Log</h3>
+             <script>document.write(Math.log(1)+"<br>");</script>
+    </div>
+    <div>Exception Handling</div>
+    <script>
+        
+		try
+		{
+			//var result  =  Sum(10, 20); // Sum is not defined yet
+            var a=10;
+            
+		}
+		catch(ex)
+		{
+			document.getElementById("errorMessage").innerHTML = ex;
+		}
+        finally
+        {
+         document.getElementById("message").innerHTML = "finally block executed"+ a;
+        }
+
+    
+    </script>
+    <h3>Exception Example</h3>
+    <script>
+    var num = prompt("Enter a positive integer between 0 to 50");
+  
+  // Storing the time when execution start
+  var start = Date.now();
+  
+  try 
+  {
+      if(num > 0 && num <= 50) 
+      {
+          alert(Math.pow(num, num)+"<br>"); // the base to the exponent power
+      } 
+      else
+      {
+          throw new Error("An invalid value is entered!");
+      }
+  } 
+  catch(e) 
+  {
+      document.write(e.message);
+  } 
+  finally 
+  {
+      // Displaying the time taken to execute the code
+      alert("Execution took: " + (Date.now() - start) + "ms");
+  }
+  
+  </script>
+
+   
+     
+</body>
+</html>

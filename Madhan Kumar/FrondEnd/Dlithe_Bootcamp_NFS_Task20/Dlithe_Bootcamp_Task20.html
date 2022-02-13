@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>  
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>  
+</head>
+<body style="background-color: rgb(33, 102, 102);">
+  <div class="container" style="background-color: rgb(46, 231, 231);">
+    
+    <h2>Abstraction Class</h2>
+    <pre>
+      <code>
+        class Student
+        {
+        constructor() 
+        {
+        if(this.constructor == Student)
+        {
+        throw new Error(" Object of Abstract Class cannot be created");
+        }
+        }
+        display()
+        {
+        //throw new Error("Abstract Method has no implementation");
+        }
+        }
+        class Book extends Student
+        {
+        display()
+        {
+        super.display();
+        console.log("Reading Books");
+        }
+        }
+        //var emp = new Employee;
+        var bok=new Book();
+        bok.display();
+
+      </code>
+    </pre>
+    <script>
+        class Student
+        {
+        constructor() 
+        {
+        if(this.constructor == Student)
+        {
+        throw new Error(" Object of Abstract Class cannot be created");
+        }
+        }
+        display()
+        {
+        //throw new Error("Abstract Method has no implementation");
+        }
+        }
+        class Book extends Student
+        {
+        display()
+        {
+        super.display();
+        console.log("Reading Books");
+        }
+        }
+        //var emp = new Employee;
+        var bok=new Book();
+        bok.display();
+        </script>
+  </div>
+        <hr>
+        <div class="container" style="background-color: rgb(46, 231, 231)">
+        <h2>Encapsulation</h2>
+        <pre>
+          <code>
+            function Animal()
+            {
+                this.AnimalName="AnimalName";
+                throw new Error("You cannot create an instance of Abstract Class");
+            }
+            
+         Animal.prototype.display=function()
+         {
+             return "Animal is: "+this.AnimalName;
+         }
+         //Creating a constructor function
+         function Carnivoros(AnimalName)
+         {
+             this.AnimalName=AnimalName;
+         }
+         //Creating object without using the function constructor
+         Carnivoros.prototype=Object.create(Animal.prototype);
+     
+         var Carnivoros=new Carnivoros("Lion");
+         document.writeln(Carnivoros.display());
+           
+              </code>
+        </pre>
+       
+    <script>
+            
+    //Creating a constructor function//
+        function Animal()
+       {
+           this.AnimalName="AnimalName";
+           throw new Error("You cannot create an instance of Abstract Class");
+       }
+       
+    Animal.prototype.display=function()
+    {
+        return "Animal is: "+this.AnimalName;
+    }
+    //Creating a constructor function
+    function Carnivoros(AnimalName)
+    {
+        this.AnimalName=AnimalName;
+    }
+    //Creating object without using the function constructor
+    Carnivoros.prototype=Object.create(Animal.prototype);
+
+    var Carnivoros=new Carnivoros("Lion");
+    document.writeln(Carnivoros.display());
+        </script>
+        </div>
+        <div class="container" style="background-color: rgb(46, 231, 231)">
+
+        <h2>Encapsulation using class</h2>
+        <pre>
+          <code>
+            class Person
+            {  
+              constructor()  
+              {  
+                 var id;  
+                 var dob;  
+              }  
+                getId()  
+                  {  
+                    return this.id;  
+                  }  
+                setId(id)  
+                {  
+                  this.id=id;  
+                }  
+                  
+                getDob()  
+                {  
+                  return this.dob;  
+                }  
+              setDob(dob)  
+              {  
+                this.dob=dob;  
+              }  
+            
+              }  
+              var per=new Person();  
+               per.setId(1234);  
+               per.setDob(16101999);  
+               document.writeln(per.getId()+" "+per.getDob()); 
+
+          </code>
+        </pre>
+
+        <script>
+
+   class Person
+  {  
+    constructor()  
+    {  
+       var id;  
+       var dob;  
+    }  
+      getId()  
+        {  
+          return this.id;  
+        }  
+      setId(id)  
+      {  
+        this.id=id;  
+      }  
+        
+      getDob()  
+      {  
+        return this.dob;  
+      }  
+    setDob(dob)  
+    {  
+      this.dob=dob;  
+    }  
+  
+    }  
+    var per=new Person();  
+     per.setId(1234);  
+     per.setDob(16101999);  
+     document.writeln(per.getId()+" "+per.getDob());  
+</script>  
+        
+    
+</body>
+</html>

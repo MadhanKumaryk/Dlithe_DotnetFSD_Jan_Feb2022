@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>  
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script> 
+    <style>
+        .container {
+            margin-top: 70px
+            
+           }
+    </style> 
+    
+</head>
+<body style="background-color: rgb(9, 99, 99);">
+    <div class="container" style="background-color:rgb(102, 193, 230)" >
+    <h2>Polymorphism</h2>
+    <pre>
+        <code>
+            class Birds {
+                display() {
+                    return "Birds";
+                }
+            }
+            class Pegion extends Birds {
+    
+            }
+    
+            var pegion = new Birds();
+            document.write(pegion.display());
+
+        </code>
+    </pre>
+    <script>
+        class Birds {
+            display() {
+                return "Birds";
+            }
+        }
+        class Pegion extends Birds {
+
+        }
+
+        var pegion = new Birds();
+        document.write(pegion.display());
+    </script> 
+    <hr>
+    </div>
+    <br>
+    
+    <!--Prototype-->
+    <div class="container" style="background-color:rgb(102, 193, 230)">
+        <pre>
+            <code>var Animal = function () {}
+                Animal.prototype.select = function()
+                {
+                 return "Animals";
+                }
+                var lion = function() {}
+                 lion.prototype = Object.create(Animal.prototype);
+                 lion.prototype.select = function()               
+                 {                                                        
+                   return "lion";
+                 }
+                 var tiger = function(){}
+                  tiger.prototype = Object.create(Animal.prototype);
+                  tiger.prototype.select = function()
+                  {
+                      return "tiger";
+                  }
+                  var cheeta =function(){}
+                  cheeta.prototype = Object.create(Animal.prototype);
+                  cheeta.prototype.select=function()
+                  {
+                      return "cheeta";
+              
+                  }
+                
+                
+                 var monkey = function() {}
+                 monkey.prototype = Object.create(Animal.prototype); 
+                 //shared parent property
+                 var Animals = [new Animal(), new lion(), new tiger(), new cheeta(), new monkey()];
+              
+                 Animals.forEach(function(Animal)
+                 {
+                   document.write(Animal.select());
+                   document.write("");
+                 });
+
+            </code>
+        </pre>
+    
+    <script>
+        
+   var Animal = function () {}
+  Animal.prototype.select = function()
+  {
+   return "Animals";
+  }
+  var lion = function() {}
+   lion.prototype = Object.create(Animal.prototype);
+   lion.prototype.select = function()               
+   {                                                        
+     return "lion";
+   }
+   var tiger = function(){}
+    tiger.prototype = Object.create(Animal.prototype);
+    tiger.prototype.select = function()
+    {
+        return "tiger";
+    }
+    var cheeta =function(){}
+    cheeta.prototype = Object.create(Animal.prototype);
+    cheeta.prototype.select=function()
+    {
+        return "cheeta";
+
+    }
+  
+  
+   var monkey = function() {}
+   monkey.prototype = Object.create(Animal.prototype); 
+   //shared parent property
+   var Animals = [new Animal(), new lion(), new tiger(), new cheeta(), new monkey()];
+
+   Animals.forEach(function(Animal)
+   {
+     document.write(Animal.select());
+     document.write("</br>");
+   });
+   
+    </script>
+       </div>
+       <div class="container" style="background-color:rgb(102, 193, 230)">
+        <h2>Inheritance</h2>
+        <pre>
+            <code>
+                function parent(A,B){
+                    this.A=A;
+                    this.B=B;
+                    parent.prototype.getparent = function()
+                    {
+                        return A + ""+ B;
+                    }
+                   }
+                   function child(A,B,C){
+                       parent.call(this,A,B);
+                       this.C=C;
+                   }
+                   child.prototype = new parent();
+                   child.prototype.constructor = child;
+                   var obj = new child("A","B","C");
+                   document.write(obj.getparent());
+
+            </code>
+        </pre>
+       
+    
+    <script>
+        function parent(A,B){
+         this.A=A;
+         this.B=B;
+         parent.prototype.getparent = function()
+         {
+             return A + ""+ B;
+         }
+        }
+        function child(A,B,C){
+            parent.call(this,A,B);
+            this.C=C;
+        }
+        child.prototype = new parent();
+        child.prototype.constructor = child;
+        var obj = new child("A","B","C");
+        document.write(obj.getparent());
+      </script>  
+      </div>
+   
+                          
+
+    
+</body>
+</html>
