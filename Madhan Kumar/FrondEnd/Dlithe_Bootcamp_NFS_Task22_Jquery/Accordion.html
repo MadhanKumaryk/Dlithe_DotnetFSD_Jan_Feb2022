@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+    <link href = "https://code.jquery.com/ui/1.10.4/themes/le-frog/jquery-ui.css"
+    rel = "stylesheet">
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <style>
+        .container{
+            background-color: rgb(33, 126, 121);
+            border-radius: 15px;
+            height: 200px;
+            padding-top: 30px;
+            color: aliceblue;}
+        
+        #accordion{
+      font-size: 14px;
+      background-color: rgb(199, 245, 245);
+      color:rgb(76, 30, 161);
+      text-align: center;
+      font-family: fantasy;
+      border-radius: 20px;
+      margin-left: 100px;
+      margin-right: 100px;
+ 
+     
+    }
+    </style>
+     <script>
+      
+        $(function() {
+                  $( "#accordion" ).accordion({
+                     collapsible: true
+                });
+               });
+        </script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-primary navbar-dark sticky-top">
+        <a class="navbar-brand" href="#">Accordion</a>
+        <br>
+        </nav>
+        <br>
+        <div class="container">
+            <h1>ACCORDION</h1>
+            <p> Accordion Widget in jQueryUI is a jQuery based expandable and collapsible content holder that is broken into sections and probably looks like tabs. 
+                jQueryUI provides accordion() method to achieve this.</p>
+                <p> Syntax:
+                    $(selector, context).accordion (options);</p>
+        </div>
+        <br>
+         
+<div id="accordion">
+    <h3>Jquery ADD Elements</h3>
+    <div>
+      <p>Append()</p>
+      <p>Prepend()</p>
+      <p>After()</p>
+      <p>Before()</p>
+    </div>
+    <h3>Jquery Remove Elements</h3>
+    <div>
+      <p>remove()</p>
+      <p>empty()</p>
+    </div>
+    <h3>Jquery GET</h3>
+    <div>
+      <p>text()</p>
+      <p>html()</p>
+      <p>Val()</p>
+      <p>attr()</p>
+      
+    </div>
+    <h3>Jquery set</h3>
+    <div>
+        <p>text()</p>
+        <p>html()</p>
+        <p>Val()</p>
+        <p>attr()</p>
+    </div>
+   
+  </div>
+</body>
+</html>

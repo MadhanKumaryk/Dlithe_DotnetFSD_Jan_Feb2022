@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+    <style>
+        .container{
+            background-color: rgb(167, 43, 105);
+            border-radius: 15px;
+            height: 300px;
+            padding-top: 30px;
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-sm bg-primary navbar-dark sticky-top">
+        <a class="navbar-brand" href="#">Remove Elements</a>
+     </nav>
+     <br>
+     <div class="container" >
+         <h5> remove()</h5>
+         <p>Removes the selected element (and its child elements)</p>
+         <button id="one" class="btn btn-primary">Remove </button>
+         <div id="div1" style="height:100px;width:300px;border:1px solid black;background-color:rgb(228, 145, 248);">
+          <p>Example of remove</p>
+           </div>
+       
+         <script>
+            $(document).ready(function(){
+              $("#one").click(function(){
+                $("#div1").remove();
+            });
+        });
+        </script>
+     </div>
+     <br>
+     <div class="container" >
+         <h5>empty()</h5>
+         <p>Removes the child elements from the selected element</p>
+         <button id="two"  class="btn btn-primary">Empty </button>
+         
+         <div id="div2" style="height:100px;width:300px;border:1px solid black;background-color:rgb(228, 145, 248);">
+            <p>Example of empty</p>
+             </div>
+         <script>
+             $(document).ready(function(){
+             $("#two").click(function(){
+             $("#div2").empty();
+            });
+        });
+         </script>
+     </div>
+    
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+    <style>
+        .container{
+            background-color: blueviolet;
+            border-radius: 15px;
+            height: 200px;
+            padding-top: 30px;
+            color: aliceblue;
+        }
+
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-primary navbar-dark sticky-top">
+        <a class="navbar-brand" href="#">Jquery</a>
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="#">Selectors</a>
+    </li>
+  </ul>
+    </nav>
+    <br>
+    <div class="container" >
+        <pre style="color: aliceblue;">jQuery selectors allow you to select and manipulate HTML element(s).
+        jQuery selectors are used to "find" (or select) HTML elements based on their name, id,
+        classes, types, attributes, values of attributes and much more. It's based on the existing CSS Selectors,
+         and in addition, it has some own custom selectors.</pre>
+    </div>
+    <br>
+    <!--Element selector-->
+    <div class="container">
+        <h2>Element Selector</h2>
+        <h5>The jQuery element selector selects elements based on the element name</h5>
+        <button id="button0">element selector for p</button>
+        <p>element selector for</p>
+        <p>another element selector for paragraph</p>
+        <script>
+
+            //You can select all <p> elements on a page like this $("p")
+            $(document).ready(function()
+            {
+            $("#button0").click
+            (function()
+            {
+                $("p").hide();
+            });
+            });
+            </script>
+
+
+    </div>
+    <br>
+    <!--ID selector-->
+    <div class="container">
+        <h2>ID selector</h2>
+        <h5>The jQuery #id selector uses the id attribute of an HTML tag to find the specific element.</h5>
+        <h3 id="test">id selector</h3>
+        <button id="button1">id selector for h3</button>
+        <script>
+            
+            
+                $(document).ready(function(){
+                $("#button1").click(function(){
+                    $("#test").hide();
+                });
+                });
+
+        </script>
+    </div>
+    <br>
+    <!--Class selector-->
+    <div class="container">
+        <h2>Class Selector</h2>
+        <h5>The jQuery .class selector finds elements with a specific class.</h5>
+        <h5 class="test1">class selector</h5>
+            <button id="button2">class selector for h5</button>
+            <script>
+                $(document).ready(function(){
+                  $("#button2").click(function(){
+                    $(".test1").hide();
+                  });
+                });
+                </script>
+    </div>
+    
+</body>
+</html>

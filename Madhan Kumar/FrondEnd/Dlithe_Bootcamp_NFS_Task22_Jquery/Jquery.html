@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jquery</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+    <style>
+        .container{
+            background-color: rgb(167, 43, 105);
+            border-radius: 15px;
+            height: 200px;
+            padding-top: 30px;
+            color: aliceblue;
+        }
+    </style>
+</head>
+
+<body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-sm bg-primary navbar-dark sticky-top">
+        <a class="navbar-brand" href="#">Jquery</a>
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="#">Get</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="Set.html">Set</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Accordion.html">Accordion</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Add.html">Add</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Autocomplete.html">Autocomplete</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Animation1.html">Animation</a>
+      </li>
+  </ul>
+    </nav>
+    <br>
+    <!--Jquery-->
+    <div class="container">
+        <h2 style="text-align: center;">jQuery - Get Content and Attributes</h2>
+        <p>The $.get() method loads data from the server using a HTTP GET request.</p>
+        <p>jQuery comes with a bunch of DOM related methods that make it easy to access and manipulate elements and attributes.</p>
+        <p>Get Content - text(), html(), and val()</p>
+    </div>
+    <br>
+    <!--Text()-->
+    <div class="container">
+        <h5>text()</h5>
+        <p> Sets or returns the text content of selected elements</p>
+        <button id="btn1" class="btn btn-primary">Button</button>
+        <p id="test">This is some <i>italics</i> text in a paragraph.</p>
+        <script>
+            $(document).ready(function(){
+              $("#btn1").click(function(){
+                alert("Text: " + $("#test").text());
+              });
+            });
+        </script> 
+            
+    </div>
+    <br>
+    <!--Html()-->
+    <div class="container">
+        <h5>html()</h5>
+        <button id="btn2" class="btn btn-primary">Button</button>
+        <p id="html">Sets or returns the content of selected elements </p>
+        <p>Sets or returns the content of selected elements (including HTML markup)</p>
+        <script>
+             $(document).ready(function(){
+             $("#btn2").click(function(){
+        alert("HTML: " + $("#html").html());
+      });
+    });
+        </script>
+    </div>
+    <br>
+    <!--Val()-->
+    <div class="container" >
+        <h5>val() </h5>
+        <p> Sets or returns the value of form fields</p>
+        <p>Car: <input type="text" id="test1" value="Benze"></p>
+        <button id="val" class="btn btn-primary">value function</button>
+        <script>
+            $(document).ready(function(){
+              $("#val").click(function(){
+                alert("Car: " + $("#test1").val());
+              });
+            });
+            </script>
+
+    </div>
+    <br>
+    <!--Attribute-->
+    <div class="container">
+        <h5>attr()</h5>
+        <p>The jQuery attr() method is used to get attribute values.</p>
+        <p><a href="https://www.google.co.in/" id="g2">www.google.com</a></p>
+        <button id="1" >Attribute value</button>
+        <script>
+            $(document).ready(function(){
+              $("#1").click(function(){
+                alert($("#g2").attr("href"));
+              });
+            });
+            </script>
+    </div>
+    
+</body>
+</html>

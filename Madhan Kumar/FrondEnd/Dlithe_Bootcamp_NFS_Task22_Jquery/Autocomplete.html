@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+    <link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css"
+         rel = "stylesheet">
+      <script src = "https://code.jquery.com/jquery-1.10.2.js"></script>
+      <script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <style>
+        .container{
+            background-color: rgb(167, 43, 105);
+            border-radius: 15px;
+            height: 300px;
+            padding-top: 30px;
+            color: aliceblue;
+        }
+    </style>
+   
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-primary navbar-dark sticky-top">
+        <a class="navbar-brand" href="#">Autocomplete</a>
+     </nav>
+     <br>
+     <div class="container">
+        <h2>AUTOCOMPLETE</h2>
+        <p> Auto completion is a mechanism frequently used in modern websites to provide the user with a list of suggestions for the beginning of the word,
+            which he/she has typed in a text box.</p>
+     </div>
+     <br>
+     <div class="container">
+        <div class = "ui-widget">
+            <p><em>Enter word or letter </em></p>
+            <label for = "automplete-1">Enter: </label>
+            <input id = "automplete-1">
+         </div>
+         <script>
+            $(function() {
+               var autocomp  =  [
+                  "ASP",
+                  "Bootstrap",
+                  "C",
+                  "C++",
+                  "Javascript",
+                  "Java",
+                  "Jquery",
+                  "Sql"
+               ];
+               $( "#automplete-1" ).autocomplete({
+                  source: autocomp,
+                  autoFocus:true,
+                 minLength:2,   
+                  delay:500,   
+               });
+            });
+         </script>
+     </div>
+    
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+  <style>
+      .container{
+          background-color: rgb(226, 83, 83);
+          border-radius: 15px;
+          height: 200px;
+          padding-top: 30px;
+          text-align: center;
+      }
+      a{
+          color: azure;
+      }
+      #panel,#flip {
+      padding: 10px;
+      text-align: center;
+      background-color: #b3d84d;
+      border: solid 1px #d66969;
+      }
+
+       #panel {
+      padding: 50px;
+     display: none;
+     }
+  </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-primary navbar-dark sticky-top">
+        <a class="navbar-brand" href="#">Jquery</a>
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="Selectors.html">Selectors</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Effects</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="Animation.html">Animation</a>
+      </li>
+  </ul>
+</nav>
+    </nav>
+    <br>
+    <h1 style="text-align:center">Effects</h1>
+    <div class="container">
+        <h2>Hide and Show</h2>
+        <p>The contents of this paragraph Id will hide</p>
+        <button id="Hide">Hide</button>
+        <button id="Show">Show</button>
+        <script>
+            $(document).ready(function(){
+                $("#Hide").click(function(){
+                    $("p").hide();
+                });
+                $("#Show").click(function(){
+                    $("p").show();
+                });
+            });
+        </script>
+
+    </div>
+    <br>
+    <div class="container">
+        <h2>Jquery Toggle</h2>
+        <button id="toggle">Toggle</button>
+        <br>
+       <a href="">Toggle1</a>
+       <br>
+       <a href="">Toggle2</a>
+       <script>
+            $(document).ready(function(){
+            $("#toggle").click(function(){
+            $("a").toggle();
+             });
+            });
+       </script>
+
+    </div>
+    <br>
+    <div class="container" style="height: auto;background-color:aliceblue;">
+        <h2>Jquery Fading</h2>
+        <button id="ft">Click to fade in/out boxes</button><br><br>
+        <div id="div1" style="width:100px;height:100px;background-color:pink;"></div><br>
+        <div id="div2" style="width:100px;height:100px;background-color:yellow;"></div><br>
+        <div id="div3" style="width:100px;height:100px;background-color:purple;"></div>
+        <script>
+            
+      $(document).ready(function(){
+      $("#ft").click(function(){
+        $("#div1").fadeToggle();
+        $("#div2").fadeToggle("slow");
+        $("#div3").fadeToggle(3000);
+      });
+    });
+        </script>
+    </div>
+    <br>
+    <div class ="container">
+        <h2>Sliding</h2>
+        <div id="flip">Sliding Example</div>
+        <div id="panel">Hello world!</div>
+        <script>
+            $(document).ready(function(){
+            $("#flip").click(function(){
+            $("#panel").slideToggle("slow");
+          });
+       });
+        </script>
+
+    </div>
+    <br>
+    <h1>Selectors</h1>
+    
+</body>
+</html>

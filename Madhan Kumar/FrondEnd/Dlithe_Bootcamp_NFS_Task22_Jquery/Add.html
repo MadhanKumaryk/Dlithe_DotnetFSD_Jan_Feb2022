@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+    <style>
+        .container{
+            background-color: rgb(167, 43, 105);
+            border-radius: 15px;
+            height: 200px;
+            padding-top: 30px;
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+     <!--navbar-->
+     <nav class="navbar navbar-expand-sm bg-primary navbar-dark sticky-top">
+        <a class="navbar-brand" href="#">Add Elements</a>
+     </nav>
+     <br>
+     <div class="container">
+         <h5>append() </h5>
+         <p>Inserts content at the end of the selected elements</p>
+         <button id="btn1" class="btn btn-primary">Append text</button>
+         <script>
+            $(document).ready(function(){
+              $("#btn1").click(function(){
+                $("p").append(" <b> Append </b>.");
+              });
+              });
+              </script>
+            
+     </div>
+     <br>
+     <div class="container">
+         <h5>prepend()</h5>
+         <h6>Inserts content at the beginning of the selected elements</h6>
+         <button id="btn2" class="btn btn-primary">Prepend text</button>
+         <script>
+             $(document).ready(function(){
+                 $("#btn2").click(function(){
+                     $("h6").prepend("**prepend**")
+                 });
+             });
+         </script>
+     </div>
+     <br>
+     <div class="container">
+         <h5>After()</h5>
+         <p id="p1">Inserts content after the selected elements</p>
+         <button id="btn3" class="btn btn-primary">After</button>
+         <script>
+             $(document).ready(function(){
+              $("#btn3").click(function(){
+             $("#p1").after("<i>After</i>");
+             });
+            });
+
+         </script>
+     </div>
+     <br>
+     <div class="container">
+        <h5>Befor()</h5>
+        <p id="p2">Inserts content before the selected elements</p>
+        <button id="btn4" class="btn btn-primary">Before</button>
+        <script>
+            $(document).ready(function(){
+             $("#btn4").click(function(){
+            $("#p2").before("<i>Before</i>");
+            });
+           });
+
+        </script>
+    </div>
+    
+</body>
+</html>

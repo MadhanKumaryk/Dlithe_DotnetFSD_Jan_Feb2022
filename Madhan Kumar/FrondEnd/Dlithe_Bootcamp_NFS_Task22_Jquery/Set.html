@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Set</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+    <style>
+        .container{
+            background-color: rgb(167, 43, 105);
+            border-radius: 15px;
+            height: 200px;
+            padding-top: 30px;
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-primary navbar-dark sticky-top">
+        <a class="navbar-brand" href="#">Set</a>
+        <br>
+        </nav>
+        <div class="container">
+            <h5>text()</h5>
+            <p> Sets or returns the text content of selected elements</p>
+             <p id="test1">Example of set text</p>
+             <button id="btn1" class="btn btn-primary">Set Text</button>
+            <script>
+                $(document).ready(function(){
+                  $("#btn1").click(function(){
+                    $("#test1").text("Set Text");
+                  });
+                });
+                </script>
+        </div>
+        <br>
+        <div class="container">
+            <h5>html()</h5>
+            <p>Sets or returns the content of selected elements (including HTML markup)</p>
+            <p id="test2">Example of set html</p>
+            <button id="btn2" class="btn btn-primary">Set HTML</button>
+            <script>
+                 $(document).ready(function(){
+                 $("#btn2").click(function(){
+            $("#test2").html("<b>Set HTML</b>");
+          });
+        });
+            </script>
+        </div>
+        <br>
+        <div class="container">
+            <h5>Val()</h5>
+            <p>val() - Sets or returns the value of form fields</p>
+            <p>Example: <input type="text" id="test3" value="Value before"></p>
+            <button id="btn3" class="btn btn-primary">Set Value</button>
+            <script>
+                  $(document).ready(function(){
+                 $("#btn3").click(function(){
+              $("#test3").val("Value After");
+          });
+        });
+            </script>
+        </div>
+        <br>
+        <div class="container">
+            <h5> attr()</h5>
+            <p>The jQuery attr() method is also used to set/change attribute values.</p>
+            <p><a href="https://www.Google.com" id="m" title="Welcome to Google">www.google.com</a></p>
+            <button id="a" class="btn btn-primary">Change href Value</button>
+            <script>
+                $(document).ready(function(){
+                  $("#a").click(function(){
+                    $("#m").attr("href", "https://www.microsoft.com/").attr("title" , "Welcome to Microsoft")
+                    $("#m").text("www.microsoft.com");
+                  });
+                });
+                </script>
+
+
+        </div>
+        
+    
+</body>
+</html>
