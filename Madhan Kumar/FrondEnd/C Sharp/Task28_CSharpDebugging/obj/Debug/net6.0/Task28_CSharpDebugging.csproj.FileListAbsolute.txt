@@ -1,0 +1,15 @@
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Task28_CSharpDebugging\bin\Debug\net6.0\Task28_CSharpDebugging.exe
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Task28_CSharpDebugging\bin\Debug\net6.0\Task28_CSharpDebugging.deps.json
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Task28_CSharpDebugging\bin\Debug\net6.0\Task28_CSharpDebugging.runtimeconfig.json
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Task28_CSharpDebugging\bin\Debug\net6.0\Task28_CSharpDebugging.dll
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Task28_CSharpDebugging\bin\Debug\net6.0\ref\Task28_CSharpDebugging.dll
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Task28_CSharpDebugging\bin\Debug\net6.0\Task28_CSharpDebugging.pdb
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Task28_CSharpDebugging\obj\Debug\net6.0\Task28_CSharpDebugging.csproj.AssemblyReference.cache
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Task28_CSharpDebugging\obj\Debug\net6.0\Task28_CSharpDebugging.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Task28_CSharpDebugging\obj\Debug\net6.0\Task28_CSharpDebugging.AssemblyInfoInputs.cache
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Task28_CSharpDebugging\obj\Debug\net6.0\Task28_CSharpDebugging.AssemblyInfo.cs
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Task28_CSharpDebugging\obj\Debug\net6.0\Task28_CSharpDebugging.csproj.CoreCompileInputs.cache
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Task28_CSharpDebugging\obj\Debug\net6.0\Task28_CSharpDebugging.dll
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Task28_CSharpDebugging\obj\Debug\net6.0\ref\Task28_CSharpDebugging.dll
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Task28_CSharpDebugging\obj\Debug\net6.0\Task28_CSharpDebugging.pdb
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Task28_CSharpDebugging\obj\Debug\net6.0\Task28_CSharpDebugging.genruntimeconfig.cache

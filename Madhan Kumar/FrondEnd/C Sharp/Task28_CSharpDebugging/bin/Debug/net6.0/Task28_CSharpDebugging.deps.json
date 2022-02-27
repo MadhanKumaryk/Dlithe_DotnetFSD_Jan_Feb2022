@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Task28_CSharpDebugging/1.0.0": {
+        "runtime": {
+          "Task28_CSharpDebugging.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Task28_CSharpDebugging/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
