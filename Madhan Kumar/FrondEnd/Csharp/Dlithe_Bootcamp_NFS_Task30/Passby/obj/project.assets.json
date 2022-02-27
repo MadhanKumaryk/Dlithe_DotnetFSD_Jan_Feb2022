@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\madhan\\OneDrive\\Desktop\\Dlithe_DotnetFSD_JanFeb2022\\Madhan Kumar\\FrondEnd\\C Sharp\\Dlithe_Bootcamp_NFS_Task30\\Passby\\Passby.csproj",
+      "projectUniqueName": "C:\\Users\\madhan\\OneDrive\\Desktop\\FinalCommit\\GitHub\\Madhan Kumar\\FrondEnd\\Csharp\\Dlithe_Bootcamp_NFS_Task30\\Passby\\Passby.csproj",
       "projectName": "Passby",
-      "projectPath": "C:\\Users\\madhan\\OneDrive\\Desktop\\Dlithe_DotnetFSD_JanFeb2022\\Madhan Kumar\\FrondEnd\\C Sharp\\Dlithe_Bootcamp_NFS_Task30\\Passby\\Passby.csproj",
+      "projectPath": "C:\\Users\\madhan\\OneDrive\\Desktop\\FinalCommit\\GitHub\\Madhan Kumar\\FrondEnd\\Csharp\\Dlithe_Bootcamp_NFS_Task30\\Passby\\Passby.csproj",
       "packagesPath": "C:\\Users\\madhan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\madhan\\OneDrive\\Desktop\\Dlithe_DotnetFSD_JanFeb2022\\Madhan Kumar\\FrondEnd\\C Sharp\\Dlithe_Bootcamp_NFS_Task30\\Passby\\obj\\",
+      "outputPath": "C:\\Users\\madhan\\OneDrive\\Desktop\\FinalCommit\\GitHub\\Madhan Kumar\\FrondEnd\\Csharp\\Dlithe_Bootcamp_NFS_Task30\\Passby\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\madhan\\AppData\\Roaming\\NuGet\\NuGet.Config",
