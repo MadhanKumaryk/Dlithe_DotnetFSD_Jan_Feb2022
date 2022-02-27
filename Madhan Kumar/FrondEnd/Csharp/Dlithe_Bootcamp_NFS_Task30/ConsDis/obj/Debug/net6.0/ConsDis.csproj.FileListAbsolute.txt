@@ -1,0 +1,15 @@
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Dlithe_Bootcamp_NFS_Task30\ConsDis\bin\Debug\net6.0\ConsDis.exe
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Dlithe_Bootcamp_NFS_Task30\ConsDis\bin\Debug\net6.0\ConsDis.deps.json
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Dlithe_Bootcamp_NFS_Task30\ConsDis\bin\Debug\net6.0\ConsDis.runtimeconfig.json
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Dlithe_Bootcamp_NFS_Task30\ConsDis\bin\Debug\net6.0\ConsDis.dll
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Dlithe_Bootcamp_NFS_Task30\ConsDis\bin\Debug\net6.0\ref\ConsDis.dll
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Dlithe_Bootcamp_NFS_Task30\ConsDis\bin\Debug\net6.0\ConsDis.pdb
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Dlithe_Bootcamp_NFS_Task30\ConsDis\obj\Debug\net6.0\ConsDis.csproj.AssemblyReference.cache
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Dlithe_Bootcamp_NFS_Task30\ConsDis\obj\Debug\net6.0\ConsDis.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Dlithe_Bootcamp_NFS_Task30\ConsDis\obj\Debug\net6.0\ConsDis.AssemblyInfoInputs.cache
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Dlithe_Bootcamp_NFS_Task30\ConsDis\obj\Debug\net6.0\ConsDis.AssemblyInfo.cs
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Dlithe_Bootcamp_NFS_Task30\ConsDis\obj\Debug\net6.0\ConsDis.csproj.CoreCompileInputs.cache
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Dlithe_Bootcamp_NFS_Task30\ConsDis\obj\Debug\net6.0\ConsDis.dll
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Dlithe_Bootcamp_NFS_Task30\ConsDis\obj\Debug\net6.0\ref\ConsDis.dll
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Dlithe_Bootcamp_NFS_Task30\ConsDis\obj\Debug\net6.0\ConsDis.pdb
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Dlithe_Bootcamp_NFS_Task30\ConsDis\obj\Debug\net6.0\ConsDis.genruntimeconfig.cache

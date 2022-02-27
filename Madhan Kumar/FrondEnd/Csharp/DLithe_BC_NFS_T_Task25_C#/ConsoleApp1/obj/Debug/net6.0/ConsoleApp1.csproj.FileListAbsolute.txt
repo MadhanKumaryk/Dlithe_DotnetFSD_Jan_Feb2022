@@ -19,3 +19,24 @@ C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondE
 C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\ConsoleApp1\obj\Debug\net6.0\ref\ConsoleApp1.dll
 C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.pdb
 C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.genruntimeconfig.cache
+C:\Users\madhan\OneDrive\Desktop\FinalCommit\GitHub\Madhan Kumar\FrondEnd\Csharp\DLithe_BC_NFS_T_Task25_C#\ConsoleApp1\bin\Debug\net6.0\Internal.deps.json
+C:\Users\madhan\OneDrive\Desktop\FinalCommit\GitHub\Madhan Kumar\FrondEnd\Csharp\DLithe_BC_NFS_T_Task25_C#\ConsoleApp1\bin\Debug\net6.0\Internal.runtimeconfig.json
+C:\Users\madhan\OneDrive\Desktop\FinalCommit\GitHub\Madhan Kumar\FrondEnd\Csharp\DLithe_BC_NFS_T_Task25_C#\ConsoleApp1\bin\Debug\net6.0\Internal.exe
+C:\Users\madhan\OneDrive\Desktop\FinalCommit\GitHub\Madhan Kumar\FrondEnd\Csharp\DLithe_BC_NFS_T_Task25_C#\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.exe
+C:\Users\madhan\OneDrive\Desktop\FinalCommit\GitHub\Madhan Kumar\FrondEnd\Csharp\DLithe_BC_NFS_T_Task25_C#\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.deps.json
+C:\Users\madhan\OneDrive\Desktop\FinalCommit\GitHub\Madhan Kumar\FrondEnd\Csharp\DLithe_BC_NFS_T_Task25_C#\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.runtimeconfig.json
+C:\Users\madhan\OneDrive\Desktop\FinalCommit\GitHub\Madhan Kumar\FrondEnd\Csharp\DLithe_BC_NFS_T_Task25_C#\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.dll
+C:\Users\madhan\OneDrive\Desktop\FinalCommit\GitHub\Madhan Kumar\FrondEnd\Csharp\DLithe_BC_NFS_T_Task25_C#\ConsoleApp1\bin\Debug\net6.0\ref\ConsoleApp1.dll
+C:\Users\madhan\OneDrive\Desktop\FinalCommit\GitHub\Madhan Kumar\FrondEnd\Csharp\DLithe_BC_NFS_T_Task25_C#\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.pdb
+C:\Users\madhan\OneDrive\Desktop\FinalCommit\GitHub\Madhan Kumar\FrondEnd\Csharp\DLithe_BC_NFS_T_Task25_C#\ConsoleApp1\bin\Debug\net6.0\Internal.dll
+C:\Users\madhan\OneDrive\Desktop\FinalCommit\GitHub\Madhan Kumar\FrondEnd\Csharp\DLithe_BC_NFS_T_Task25_C#\ConsoleApp1\bin\Debug\net6.0\Internal.pdb
+C:\Users\madhan\OneDrive\Desktop\FinalCommit\GitHub\Madhan Kumar\FrondEnd\Csharp\DLithe_BC_NFS_T_Task25_C#\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.csproj.AssemblyReference.cache
+C:\Users\madhan\OneDrive\Desktop\FinalCommit\GitHub\Madhan Kumar\FrondEnd\Csharp\DLithe_BC_NFS_T_Task25_C#\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\madhan\OneDrive\Desktop\FinalCommit\GitHub\Madhan Kumar\FrondEnd\Csharp\DLithe_BC_NFS_T_Task25_C#\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.AssemblyInfoInputs.cache
+C:\Users\madhan\OneDrive\Desktop\FinalCommit\GitHub\Madhan Kumar\FrondEnd\Csharp\DLithe_BC_NFS_T_Task25_C#\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.AssemblyInfo.cs
+C:\Users\madhan\OneDrive\Desktop\FinalCommit\GitHub\Madhan Kumar\FrondEnd\Csharp\DLithe_BC_NFS_T_Task25_C#\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\madhan\OneDrive\Desktop\FinalCommit\GitHub\Madhan Kumar\FrondEnd\Csharp\DLithe_BC_NFS_T_Task25_C#\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.csproj.CopyComplete
+C:\Users\madhan\OneDrive\Desktop\FinalCommit\GitHub\Madhan Kumar\FrondEnd\Csharp\DLithe_BC_NFS_T_Task25_C#\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.dll
+C:\Users\madhan\OneDrive\Desktop\FinalCommit\GitHub\Madhan Kumar\FrondEnd\Csharp\DLithe_BC_NFS_T_Task25_C#\ConsoleApp1\obj\Debug\net6.0\ref\ConsoleApp1.dll
+C:\Users\madhan\OneDrive\Desktop\FinalCommit\GitHub\Madhan Kumar\FrondEnd\Csharp\DLithe_BC_NFS_T_Task25_C#\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.pdb
+C:\Users\madhan\OneDrive\Desktop\FinalCommit\GitHub\Madhan Kumar\FrondEnd\Csharp\DLithe_BC_NFS_T_Task25_C#\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.genruntimeconfig.cache

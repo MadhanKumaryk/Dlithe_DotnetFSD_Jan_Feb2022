@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\madhan\\OneDrive\\Desktop\\Dlithe_DotnetFSD_JanFeb2022\\Madhan Kumar\\FrondEnd\\C Sharp\\ConsoleApp1\\ConsoleApp1.csproj": {}
+    "C:\\Users\\madhan\\OneDrive\\Desktop\\FinalCommit\\GitHub\\Madhan Kumar\\FrondEnd\\Csharp\\DLithe_BC_NFS_T_Task25_C#\\ConsoleApp1\\ConsoleApp1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\madhan\\OneDrive\\Desktop\\Dlithe_DotnetFSD_JanFeb2022\\Madhan Kumar\\FrondEnd\\C Sharp\\ConsoleApp1\\ConsoleApp1.csproj": {
+    "C:\\Users\\madhan\\OneDrive\\Desktop\\FinalCommit\\GitHub\\Madhan Kumar\\FrondEnd\\Csharp\\DLithe_BC_NFS_T_Task25_C#\\ConsoleApp1\\ConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\madhan\\OneDrive\\Desktop\\Dlithe_DotnetFSD_JanFeb2022\\Madhan Kumar\\FrondEnd\\C Sharp\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectUniqueName": "C:\\Users\\madhan\\OneDrive\\Desktop\\FinalCommit\\GitHub\\Madhan Kumar\\FrondEnd\\Csharp\\DLithe_BC_NFS_T_Task25_C#\\ConsoleApp1\\ConsoleApp1.csproj",
         "projectName": "ConsoleApp1",
-        "projectPath": "C:\\Users\\madhan\\OneDrive\\Desktop\\Dlithe_DotnetFSD_JanFeb2022\\Madhan Kumar\\FrondEnd\\C Sharp\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectPath": "C:\\Users\\madhan\\OneDrive\\Desktop\\FinalCommit\\GitHub\\Madhan Kumar\\FrondEnd\\Csharp\\DLithe_BC_NFS_T_Task25_C#\\ConsoleApp1\\ConsoleApp1.csproj",
         "packagesPath": "C:\\Users\\madhan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\madhan\\OneDrive\\Desktop\\Dlithe_DotnetFSD_JanFeb2022\\Madhan Kumar\\FrondEnd\\C Sharp\\ConsoleApp1\\obj\\",
+        "outputPath": "C:\\Users\\madhan\\OneDrive\\Desktop\\FinalCommit\\GitHub\\Madhan Kumar\\FrondEnd\\Csharp\\DLithe_BC_NFS_T_Task25_C#\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\madhan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\madhan\\OneDrive\\Desktop\\Dlithe_DotnetFSD_JanFeb2022\\Madhan Kumar\\FrondEnd\\C Sharp\\Internal\\Internal.csproj": {
-                "projectPath": "C:\\Users\\madhan\\OneDrive\\Desktop\\Dlithe_DotnetFSD_JanFeb2022\\Madhan Kumar\\FrondEnd\\C Sharp\\Internal\\Internal.csproj"
+              "C:\\Users\\madhan\\OneDrive\\Desktop\\FinalCommit\\GitHub\\Madhan Kumar\\FrondEnd\\Csharp\\DLithe_BC_NFS_T_Task25_C#\\Internal\\Internal.csproj": {
+                "projectPath": "C:\\Users\\madhan\\OneDrive\\Desktop\\FinalCommit\\GitHub\\Madhan Kumar\\FrondEnd\\Csharp\\DLithe_BC_NFS_T_Task25_C#\\Internal\\Internal.csproj"
               }
             }
           }
@@ -62,14 +62,14 @@
         }
       }
     },
-    "C:\\Users\\madhan\\OneDrive\\Desktop\\Dlithe_DotnetFSD_JanFeb2022\\Madhan Kumar\\FrondEnd\\C Sharp\\Internal\\Internal.csproj": {
+    "C:\\Users\\madhan\\OneDrive\\Desktop\\FinalCommit\\GitHub\\Madhan Kumar\\FrondEnd\\Csharp\\DLithe_BC_NFS_T_Task25_C#\\Internal\\Internal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\madhan\\OneDrive\\Desktop\\Dlithe_DotnetFSD_JanFeb2022\\Madhan Kumar\\FrondEnd\\C Sharp\\Internal\\Internal.csproj",
+        "projectUniqueName": "C:\\Users\\madhan\\OneDrive\\Desktop\\FinalCommit\\GitHub\\Madhan Kumar\\FrondEnd\\Csharp\\DLithe_BC_NFS_T_Task25_C#\\Internal\\Internal.csproj",
         "projectName": "Internal",
-        "projectPath": "C:\\Users\\madhan\\OneDrive\\Desktop\\Dlithe_DotnetFSD_JanFeb2022\\Madhan Kumar\\FrondEnd\\C Sharp\\Internal\\Internal.csproj",
+        "projectPath": "C:\\Users\\madhan\\OneDrive\\Desktop\\FinalCommit\\GitHub\\Madhan Kumar\\FrondEnd\\Csharp\\DLithe_BC_NFS_T_Task25_C#\\Internal\\Internal.csproj",
         "packagesPath": "C:\\Users\\madhan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\madhan\\OneDrive\\Desktop\\Dlithe_DotnetFSD_JanFeb2022\\Madhan Kumar\\FrondEnd\\C Sharp\\Internal\\obj\\",
+        "outputPath": "C:\\Users\\madhan\\OneDrive\\Desktop\\FinalCommit\\GitHub\\Madhan Kumar\\FrondEnd\\Csharp\\DLithe_BC_NFS_T_Task25_C#\\Internal\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\madhan\\AppData\\Roaming\\NuGet\\NuGet.Config",

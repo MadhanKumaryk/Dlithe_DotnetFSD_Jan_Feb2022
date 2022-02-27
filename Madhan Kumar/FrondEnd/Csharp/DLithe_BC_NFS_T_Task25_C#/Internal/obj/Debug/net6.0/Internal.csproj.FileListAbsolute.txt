@@ -12,3 +12,18 @@ C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondE
 C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Internal\obj\Debug\net6.0\ref\Internal.dll
 C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Internal\obj\Debug\net6.0\Internal.pdb
 C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Internal\obj\Debug\net6.0\Internal.genruntimeconfig.cache
+C:\Users\madhan\OneDrive\Desktop\FinalCommit\GitHub\Madhan Kumar\FrondEnd\Csharp\DLithe_BC_NFS_T_Task25_C#\Internal\bin\Debug\net6.0\Internal.exe
+C:\Users\madhan\OneDrive\Desktop\FinalCommit\GitHub\Madhan Kumar\FrondEnd\Csharp\DLithe_BC_NFS_T_Task25_C#\Internal\bin\Debug\net6.0\Internal.deps.json
+C:\Users\madhan\OneDrive\Desktop\FinalCommit\GitHub\Madhan Kumar\FrondEnd\Csharp\DLithe_BC_NFS_T_Task25_C#\Internal\bin\Debug\net6.0\Internal.runtimeconfig.json
+C:\Users\madhan\OneDrive\Desktop\FinalCommit\GitHub\Madhan Kumar\FrondEnd\Csharp\DLithe_BC_NFS_T_Task25_C#\Internal\bin\Debug\net6.0\Internal.dll
+C:\Users\madhan\OneDrive\Desktop\FinalCommit\GitHub\Madhan Kumar\FrondEnd\Csharp\DLithe_BC_NFS_T_Task25_C#\Internal\bin\Debug\net6.0\ref\Internal.dll
+C:\Users\madhan\OneDrive\Desktop\FinalCommit\GitHub\Madhan Kumar\FrondEnd\Csharp\DLithe_BC_NFS_T_Task25_C#\Internal\bin\Debug\net6.0\Internal.pdb
+C:\Users\madhan\OneDrive\Desktop\FinalCommit\GitHub\Madhan Kumar\FrondEnd\Csharp\DLithe_BC_NFS_T_Task25_C#\Internal\obj\Debug\net6.0\Internal.csproj.AssemblyReference.cache
+C:\Users\madhan\OneDrive\Desktop\FinalCommit\GitHub\Madhan Kumar\FrondEnd\Csharp\DLithe_BC_NFS_T_Task25_C#\Internal\obj\Debug\net6.0\Internal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\madhan\OneDrive\Desktop\FinalCommit\GitHub\Madhan Kumar\FrondEnd\Csharp\DLithe_BC_NFS_T_Task25_C#\Internal\obj\Debug\net6.0\Internal.AssemblyInfoInputs.cache
+C:\Users\madhan\OneDrive\Desktop\FinalCommit\GitHub\Madhan Kumar\FrondEnd\Csharp\DLithe_BC_NFS_T_Task25_C#\Internal\obj\Debug\net6.0\Internal.AssemblyInfo.cs
+C:\Users\madhan\OneDrive\Desktop\FinalCommit\GitHub\Madhan Kumar\FrondEnd\Csharp\DLithe_BC_NFS_T_Task25_C#\Internal\obj\Debug\net6.0\Internal.csproj.CoreCompileInputs.cache
+C:\Users\madhan\OneDrive\Desktop\FinalCommit\GitHub\Madhan Kumar\FrondEnd\Csharp\DLithe_BC_NFS_T_Task25_C#\Internal\obj\Debug\net6.0\Internal.dll
+C:\Users\madhan\OneDrive\Desktop\FinalCommit\GitHub\Madhan Kumar\FrondEnd\Csharp\DLithe_BC_NFS_T_Task25_C#\Internal\obj\Debug\net6.0\ref\Internal.dll
+C:\Users\madhan\OneDrive\Desktop\FinalCommit\GitHub\Madhan Kumar\FrondEnd\Csharp\DLithe_BC_NFS_T_Task25_C#\Internal\obj\Debug\net6.0\Internal.pdb
+C:\Users\madhan\OneDrive\Desktop\FinalCommit\GitHub\Madhan Kumar\FrondEnd\Csharp\DLithe_BC_NFS_T_Task25_C#\Internal\obj\Debug\net6.0\Internal.genruntimeconfig.cache
