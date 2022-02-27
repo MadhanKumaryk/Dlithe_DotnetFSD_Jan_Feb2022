@@ -1,0 +1,15 @@
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Dlithe_Bootcamp_NFS_Task30\Dlithe_Bootcamp_Task32\bin\Debug\net6.0\Dlithe_Bootcamp_Task32.exe
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Dlithe_Bootcamp_NFS_Task30\Dlithe_Bootcamp_Task32\bin\Debug\net6.0\Dlithe_Bootcamp_Task32.deps.json
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Dlithe_Bootcamp_NFS_Task30\Dlithe_Bootcamp_Task32\bin\Debug\net6.0\Dlithe_Bootcamp_Task32.runtimeconfig.json
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Dlithe_Bootcamp_NFS_Task30\Dlithe_Bootcamp_Task32\bin\Debug\net6.0\Dlithe_Bootcamp_Task32.dll
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Dlithe_Bootcamp_NFS_Task30\Dlithe_Bootcamp_Task32\bin\Debug\net6.0\ref\Dlithe_Bootcamp_Task32.dll
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Dlithe_Bootcamp_NFS_Task30\Dlithe_Bootcamp_Task32\bin\Debug\net6.0\Dlithe_Bootcamp_Task32.pdb
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Dlithe_Bootcamp_NFS_Task30\Dlithe_Bootcamp_Task32\obj\Debug\net6.0\Dlithe_Bootcamp_Task32.csproj.AssemblyReference.cache
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Dlithe_Bootcamp_NFS_Task30\Dlithe_Bootcamp_Task32\obj\Debug\net6.0\Dlithe_Bootcamp_Task32.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Dlithe_Bootcamp_NFS_Task30\Dlithe_Bootcamp_Task32\obj\Debug\net6.0\Dlithe_Bootcamp_Task32.AssemblyInfoInputs.cache
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Dlithe_Bootcamp_NFS_Task30\Dlithe_Bootcamp_Task32\obj\Debug\net6.0\Dlithe_Bootcamp_Task32.AssemblyInfo.cs
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Dlithe_Bootcamp_NFS_Task30\Dlithe_Bootcamp_Task32\obj\Debug\net6.0\Dlithe_Bootcamp_Task32.csproj.CoreCompileInputs.cache
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Dlithe_Bootcamp_NFS_Task30\Dlithe_Bootcamp_Task32\obj\Debug\net6.0\Dlithe_Bootcamp_Task32.dll
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Dlithe_Bootcamp_NFS_Task30\Dlithe_Bootcamp_Task32\obj\Debug\net6.0\ref\Dlithe_Bootcamp_Task32.dll
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Dlithe_Bootcamp_NFS_Task30\Dlithe_Bootcamp_Task32\obj\Debug\net6.0\Dlithe_Bootcamp_Task32.pdb
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Dlithe_Bootcamp_NFS_Task30\Dlithe_Bootcamp_Task32\obj\Debug\net6.0\Dlithe_Bootcamp_Task32.genruntimeconfig.cache
