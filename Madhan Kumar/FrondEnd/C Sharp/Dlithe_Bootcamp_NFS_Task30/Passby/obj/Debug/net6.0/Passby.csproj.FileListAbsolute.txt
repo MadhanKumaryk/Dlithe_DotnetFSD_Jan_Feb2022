@@ -1,0 +1,15 @@
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Dlithe_Bootcamp_NFS_Task30\Passby\bin\Debug\net6.0\Passby.exe
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Dlithe_Bootcamp_NFS_Task30\Passby\bin\Debug\net6.0\Passby.deps.json
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Dlithe_Bootcamp_NFS_Task30\Passby\bin\Debug\net6.0\Passby.runtimeconfig.json
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Dlithe_Bootcamp_NFS_Task30\Passby\bin\Debug\net6.0\Passby.dll
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Dlithe_Bootcamp_NFS_Task30\Passby\bin\Debug\net6.0\ref\Passby.dll
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Dlithe_Bootcamp_NFS_Task30\Passby\bin\Debug\net6.0\Passby.pdb
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Dlithe_Bootcamp_NFS_Task30\Passby\obj\Debug\net6.0\Passby.csproj.AssemblyReference.cache
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Dlithe_Bootcamp_NFS_Task30\Passby\obj\Debug\net6.0\Passby.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Dlithe_Bootcamp_NFS_Task30\Passby\obj\Debug\net6.0\Passby.AssemblyInfoInputs.cache
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Dlithe_Bootcamp_NFS_Task30\Passby\obj\Debug\net6.0\Passby.AssemblyInfo.cs
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Dlithe_Bootcamp_NFS_Task30\Passby\obj\Debug\net6.0\Passby.csproj.CoreCompileInputs.cache
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Dlithe_Bootcamp_NFS_Task30\Passby\obj\Debug\net6.0\Passby.dll
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Dlithe_Bootcamp_NFS_Task30\Passby\obj\Debug\net6.0\ref\Passby.dll
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Dlithe_Bootcamp_NFS_Task30\Passby\obj\Debug\net6.0\Passby.pdb
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Dlithe_Bootcamp_NFS_Task30\Passby\obj\Debug\net6.0\Passby.genruntimeconfig.cache

@@ -1,0 +1,15 @@
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Dlithe_Bootcamp_NFS_Task30\Collections\obj\Debug\net6.0\Collections.csproj.AssemblyReference.cache
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Dlithe_Bootcamp_NFS_Task30\Collections\obj\Debug\net6.0\Collections.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Dlithe_Bootcamp_NFS_Task30\Collections\obj\Debug\net6.0\Collections.AssemblyInfoInputs.cache
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Dlithe_Bootcamp_NFS_Task30\Collections\obj\Debug\net6.0\Collections.AssemblyInfo.cs
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Dlithe_Bootcamp_NFS_Task30\Collections\obj\Debug\net6.0\Collections.csproj.CoreCompileInputs.cache
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Dlithe_Bootcamp_NFS_Task30\Collections\bin\Debug\net6.0\Collections.exe
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Dlithe_Bootcamp_NFS_Task30\Collections\bin\Debug\net6.0\Collections.deps.json
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Dlithe_Bootcamp_NFS_Task30\Collections\bin\Debug\net6.0\Collections.runtimeconfig.json
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Dlithe_Bootcamp_NFS_Task30\Collections\bin\Debug\net6.0\Collections.dll
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Dlithe_Bootcamp_NFS_Task30\Collections\bin\Debug\net6.0\ref\Collections.dll
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Dlithe_Bootcamp_NFS_Task30\Collections\bin\Debug\net6.0\Collections.pdb
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Dlithe_Bootcamp_NFS_Task30\Collections\obj\Debug\net6.0\Collections.dll
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Dlithe_Bootcamp_NFS_Task30\Collections\obj\Debug\net6.0\ref\Collections.dll
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Dlithe_Bootcamp_NFS_Task30\Collections\obj\Debug\net6.0\Collections.pdb
+C:\Users\madhan\OneDrive\Desktop\Dlithe_DotnetFSD_JanFeb2022\Madhan Kumar\FrondEnd\C Sharp\Dlithe_Bootcamp_NFS_Task30\Collections\obj\Debug\net6.0\Collections.genruntimeconfig.cache
